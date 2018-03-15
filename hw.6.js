@@ -6,7 +6,7 @@ $(function () {
 
 
 //Button Options
-var searchArray = ['NBA', 'MAVS', 'LEBRON', 'GOLDEN STATE', 'MVP', 'NBA FINALS', 'Basketball' ];
+var searchArray = ['NBA', 'MAVS', 'GOLDEN STATE', 'LAKERS','MVP', 'BASKETBALL', 'DIRK', 'KOBE','LEBRON','JORDAN' ];
 
 function populateButtons(searchArray, classToAdd, areaToAddTo) {
     $(areaToAddTo).empty(); // this is empty so we can add a new button - no button is duplicated unless you user types in the same thing 
